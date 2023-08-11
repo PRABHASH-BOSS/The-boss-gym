@@ -97,7 +97,7 @@ export const Gallery = () => {
             <Image src={a} width={200} height={150} alt="Master" />{" "}
           </Grid>
           <Grid justify="center">
-            <Flex align={"center"}>
+            <Flex align={"center"} justify={"center"}>
               <AcmeLogo />{" "}
               <Text weight={"semibold"} span size={"$lg"}>
                 Trainer
@@ -107,7 +107,7 @@ export const Gallery = () => {
 
           </Grid>
           <Grid justify="center">
-            <Flex align={"center"}>
+            <Flex align={"center"} justify={"center"}>
               <AcmeLogo />{" "}
               <Text weight={"semibold"} span size={"$lg"}>
                 Trainer
@@ -117,13 +117,13 @@ export const Gallery = () => {
 
           </Grid>
           <Grid justify="center">
-            <Flex align={"center"}>
+            <Flex align={"center"} justify={"center"}>
               <AcmeLogo />{" "}
               <Text weight={"semibold"} span size={"$lg"}>
                 Trainer
               </Text>
             </Flex>
-            <Image src={d} width={200} height={150} alt="Master" />\{" "}
+            <Image src={d} width={200} height={150} alt="Master" />{" "}
           </Grid>
         </Grid.Container>
       </Flex>
