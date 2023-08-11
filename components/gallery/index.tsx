@@ -5,6 +5,12 @@ import { Flex } from "../styles/flex";
 import PhotoGallery from "./PhotoGallery";
 import TransGallery from "./trans";
 import { Insta } from "./insta";
+import Image from "next/image";
+
+import a from "../../public/a.jpeg";
+import b from "../../public/b.jpeg";
+import c from "../../public/c.jpeg";
+import d from "../../public/d.jpeg";
 
 export const Gallery = () => {
   return (
@@ -68,9 +74,9 @@ export const Gallery = () => {
           Our Trainers
         </Text>
         <Grid.Container
-          gap={6}
+          gap={4}
           alignItems="center"
-          justify="center"
+          justify="center"          
           css={{
             width: "100%",
             "@sm": {
@@ -81,37 +87,43 @@ export const Gallery = () => {
             },
           }}
         >
-          <Grid sm={3} justify="center">
+          <Grid justify="center">
             <Flex align={"center"} justify={"center"}>
               <AcmeLogo />
               <Text weight={"semibold"} span size={"$lg"}>
-                Trainer 1
+                Master
               </Text>
             </Flex>
+            <Image src={a} width={200} height={150} alt="Master" />{" "}
           </Grid>
-          <Grid sm={3} justify="center">
+          <Grid justify="center">
             <Flex align={"center"}>
               <AcmeLogo />{" "}
               <Text weight={"semibold"} span size={"$lg"}>
-                Trainer 2
+                Trainer
               </Text>
             </Flex>
+            <Image src={b} width={200} height={150} alt="Master" />{" "}
+
           </Grid>
-          <Grid sm={3} justify="center">
+          <Grid justify="center">
             <Flex align={"center"}>
               <AcmeLogo />{" "}
               <Text weight={"semibold"} span size={"$lg"}>
-                Trainer 3
+                Trainer
               </Text>
             </Flex>
+            <Image src={c} width={200} height={150} alt="Master" />{" "}
+
           </Grid>
-          <Grid sm={3} justify="center">
+          <Grid justify="center">
             <Flex align={"center"}>
               <AcmeLogo />{" "}
               <Text weight={"semibold"} span size={"$lg"}>
-                Trainer 4
+                Trainer
               </Text>
             </Flex>
+            <Image src={d} width={200} height={150} alt="Master" />\{" "}
           </Grid>
         </Grid.Container>
       </Flex>
