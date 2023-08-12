@@ -60,10 +60,6 @@ export const Gallery = () => {
         align={"center"}
         css={{
           pt: "$20",
-          px: "$6",
-          "@md": {
-            px: "$64",
-          },
         }}
       >
         <Text
@@ -74,9 +70,9 @@ export const Gallery = () => {
           Our Trainers
         </Text>
         <Grid.Container
-          gap={4}
+          gap={1}
           alignItems="center"
-          justify="center"          
+          justify="center"
           css={{
             width: "100%",
             "@sm": {
@@ -94,7 +90,12 @@ export const Gallery = () => {
                 Master
               </Text>
             </Flex>
-            <Image src={a} width={200} height={150} alt="Master" />{" "}
+            <Image
+              src={a}
+              width={350}
+              alt="Master"
+              style={{ paddingTop: "1rem" }}
+            />{" "}
           </Grid>
           <Grid justify="center">
             <Flex align={"center"} justify={"center"}>
@@ -103,8 +104,12 @@ export const Gallery = () => {
                 Trainer
               </Text>
             </Flex>
-            <Image src={b} width={200} height={150} alt="Master" />{" "}
-
+            <Image
+              src={b}
+              width={350}
+              alt="Master"
+              style={{ paddingTop: "1rem" }}
+            />{" "}
           </Grid>
           <Grid justify="center">
             <Flex align={"center"} justify={"center"}>
@@ -113,8 +118,12 @@ export const Gallery = () => {
                 Trainer
               </Text>
             </Flex>
-            <Image src={c} width={200} height={150} alt="Master" />{" "}
-
+            <Image
+              src={c}
+              width={350}
+              alt="Master"
+              style={{ paddingTop: "1rem" }}
+            />{" "}
           </Grid>
           <Grid justify="center">
             <Flex align={"center"} justify={"center"}>
@@ -123,7 +132,12 @@ export const Gallery = () => {
                 Trainer
               </Text>
             </Flex>
-            <Image src={d} width={200} height={150} alt="Master" />{" "}
+            <Image
+              src={d}
+              width={350}
+              alt="Master"
+              style={{ paddingTop: "1rem" }}
+            />{" "}
           </Grid>
         </Grid.Container>
       </Flex>

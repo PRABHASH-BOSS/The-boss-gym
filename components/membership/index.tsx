@@ -65,16 +65,18 @@ export const Membership = () => {
             </Card.Header>
             <Card.Body>
               <Text css={{ display: "contents" }} h2>
-                {isMonthly ? "₹700" :  "₹6800"}{" "}
+                {isMonthly ? "₹700" : "₹6800"}{" "}
               </Text>
               <Text css={{ display: "contents", color: "$accents8" }}>
                 {isMonthly ? "/mo" : "/yr"}
               </Text>
               <br />
 
-              <Button color={"secondary"} css={{ mt: "$7", mb: "$12" }}>
-                Join Us{" "}
-              </Button>
+              <a href="#contact">
+                <Button color={"secondary"} css={{ mt: "$7", mb: "$12" }}>
+                  Join Us{" "}
+                </Button>
+              </a>
 
               <Divider />
               <Box as={"ul"}>
@@ -129,11 +131,11 @@ export const Membership = () => {
               <Text css={{ display: "contents", color: "$accents8" }}>
                 {isMonthly ? "/mo" : "/yr"}{" "}
               </Text>
-
-              <Button color={"secondary"} css={{ mt: "$7", mb: "$12" }}>
-                Join Us
-              </Button>
-
+              <a href="#contact">
+                <Button color={"secondary"} css={{ mt: "$7", mb: "$12" }}>
+                  Join Us
+                </Button>
+              </a>
               <Divider />
               <Box as={"ul"}>
                 <Flex as={"li"} css={{ py: "$2", gap: "$2" }} align={"center"}>
