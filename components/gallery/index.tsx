@@ -1,4 +1,4 @@
-import { Container, Divider, Grid, Text } from "@nextui-org/react";
+import { Container, Divider, Grid, Text, Card } from "@nextui-org/react";
 import React from "react";
 import { AcmeLogo } from "../navbar/logo";
 import { Flex } from "../styles/flex";
@@ -96,6 +96,25 @@ export const Gallery = () => {
               alt="Master"
               style={{ paddingTop: "1rem" }}
             />{" "}
+            <Card
+              css={{
+                width: "100%",
+                height: "100%",
+                borderRadius: "0px",
+                boxShadow: "0 5px 25px -5px rgba(0, 0, 0, 0.1)",
+                transition: "all .25s ease-in-out",
+                "&:hover": {
+                  boxShadow: "0 5px 25px -5px rgba(0, 0, 0, 0.2)",
+                  transform: "translateY(-5px)",
+                },
+              }}
+            >
+              <Flex align={"center"} justify={"center"}>
+                <Text weight={"semibold"} span size={"$lg"}>
+                  Prabhash
+                </Text>
+              </Flex>
+            </Card>
           </Grid>
           <Grid justify="center">
             <Flex align={"center"} justify={"center"}>
@@ -107,9 +126,28 @@ export const Gallery = () => {
             <Image
               src={b}
               width={350}
-              alt="Master"
+              alt="Trainer"
               style={{ paddingTop: "1rem" }}
             />{" "}
+            <Card
+              css={{
+                width: "100%",
+                height: "100%",
+                borderRadius: "0px",
+                boxShadow: "0 5px 25px -5px rgba(0, 0, 0, 0.1)",
+                transition: "all .25s ease-in-out",
+                "&:hover": {
+                  boxShadow: "0 5px 25px -5px rgba(0, 0, 0, 0.2)",
+                  transform: "translateY(-5px)",
+                },
+              }}
+            >
+              <Flex align={"center"} justify={"center"}>
+                <Text weight={"semibold"} span size={"$lg"}>
+                Kaliraj
+                </Text>
+              </Flex>
+            </Card>
           </Grid>
           <Grid justify="center">
             <Flex align={"center"} justify={"center"}>
@@ -121,9 +159,28 @@ export const Gallery = () => {
             <Image
               src={c}
               width={350}
-              alt="Master"
+              alt="Trainer"
               style={{ paddingTop: "1rem" }}
             />{" "}
+            <Card
+              css={{
+                width: "100%",
+                height: "100%",
+                borderRadius: "0px",
+                boxShadow: "0 5px 25px -5px rgba(0, 0, 0, 0.1)",
+                transition: "all .25s ease-in-out",
+                "&:hover": {
+                  boxShadow: "0 5px 25px -5px rgba(0, 0, 0, 0.2)",
+                  transform: "translateY(-5px)",
+                },
+              }}
+            >
+              <Flex align={"center"} justify={"center"}>
+                <Text weight={"semibold"} span size={"$lg"}>
+                Mohammad ishaq
+                </Text>
+              </Flex>
+            </Card>
           </Grid>
           <Grid justify="center">
             <Flex align={"center"} justify={"center"}>
@@ -135,9 +192,28 @@ export const Gallery = () => {
             <Image
               src={d}
               width={350}
-              alt="Master"
+              alt="Trainer"
               style={{ paddingTop: "1rem" }}
             />{" "}
+            <Card
+              css={{
+                width: "100%",
+                height: "100%",
+                borderRadius: "0px",
+                boxShadow: "0 5px 25px -5px rgba(0, 0, 0, 0.1)",
+                transition: "all .25s ease-in-out",
+                "&:hover": {
+                  boxShadow: "0 5px 25px -5px rgba(0, 0, 0, 0.2)",
+                  transform: "translateY(-5px)",
+                },
+              }}
+            >
+              <Flex align={"center"} justify={"center"}>
+                <Text weight={"semibold"} span size={"$lg"}>
+                Sakthivel
+                </Text>
+              </Flex>
+            </Card>
           </Grid>
         </Grid.Container>
       </Flex>
