@@ -73,7 +73,7 @@ export const Membership = () => {
               <br />
 
               <a href="#contact">
-                <Button color={"secondary"} css={{ mt: "$7", mb: "$12" }}>
+                <Button shadow color="warning" css={{ mt: "$7", mb: "$12" }}>
                   Join Us{" "}
                 </Button>
               </a>
@@ -132,7 +132,7 @@ export const Membership = () => {
                 {isMonthly ? "/mo" : "/yr"}{" "}
               </Text>
               <a href="#contact">
-                <Button color={"secondary"} css={{ mt: "$7", mb: "$12" }}>
+                <Button  shadow color="warning" css={{ mt: "$7", mb: "$12" }}>
                   Join Us
                 </Button>
               </a>

@@ -51,7 +51,7 @@ export const Footer = () => {
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 48 48"
-                    width="35px"
+                    width="34px"
                   >
                     <radialGradient
                       id="yOrnnhliCrdS2gy~4tD8ma"
@@ -199,7 +199,7 @@ export const Footer = () => {
                 <Text span css={{ color: "$accents8" }}>
                   Site by
                 </Text>
-                <a href="https://www.akilesh.io/" target="_blank">
+                <a href="https://www.akilesh.io/" target="_blank" style={{color: "orange"}} >
                   akilesh_io
                 </a>
               </Flex>
