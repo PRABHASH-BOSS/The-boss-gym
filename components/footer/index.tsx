@@ -32,7 +32,13 @@ export const Footer = () => {
             }}
           >
             <Flex css={{ gap: "$5" }} direction={"row"} align={"center"}>
+            <Box
+                css={{
+                  alignContent: "center",
+                }}
+              >
               <AcmeLogo />
+              </Box>
               <Box
                 css={{
                   gap: "$5",
