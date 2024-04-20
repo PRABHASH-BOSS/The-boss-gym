@@ -205,7 +205,7 @@ export const Footer = () => {
                 <Text span css={{ color: "$accents8" }}>
                   Site by
                 </Text>
-                <a href="https://www.akilesh.io/" target="_blank" style={{color: "orange"}} >
+                <a href="https://www.akilesh.in/" target="_blank" style={{color: "orange"}} >
                   akilesh_io
                 </a>
               </Flex>
